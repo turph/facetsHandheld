@@ -1,9 +1,24 @@
 // Fonts
 // Description: Add custom fonts here if importing and assign them via the @font-primary, @font-secondary variables for use with the .custom-font mixin
-
+@font-face {
+  font-family: Conduit;
+  font-style: normal;
+  src: url("../fonts/ConduitITCStd-Regular.otf");
+}
+@font-face {
+  font-family: Conduit;
+  font-style: normal;
+  font-weight: bold;
+  src: url("../fonts/ConduitITCStd-Bold.otf");
+}
+@font-face {
+  font-family: Conduit-Black;
+  font-style: normal;
+  font-weight: bold;
+  src: url("../fonts/ConduitITCStd-Regular.otf");
+}
 // Declare a Primary and Secondary font selection here
-
-$font-primary: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-primary: "Conduit", Helvetica, Arial, sans-serif;
 // $font-secondary: "Tahoma";
 
 // If you would prefer importing from an external source (i.e. Google Fonts), declare them here when using @import

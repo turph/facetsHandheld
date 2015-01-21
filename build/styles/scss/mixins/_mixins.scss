@@ -1,0 +1,9 @@
+@import 'triangles';
+@import 'roundCorners';
+
+
+@mixin box-shadow($shadowH-Off, $shadowV-Off, $shadowBlur, $shadowColor) {
+	-webkit-box-shadow:	$shadowH-Off $shadowV-Off $shadowBlur $shadowColor;
+	-moz-box-shadow:		$shadowH-Off $shadowV-Off $shadowBlur $shadowColor;
+	box-shadow:					$shadowH-Off $shadowV-Off $shadowBlur $shadowColor;
+}

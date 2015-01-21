@@ -20,6 +20,7 @@ $img-url: "../img";
 // Globals
 // ------------------------------------------------------------------------
 @import "globals/defaults";
+@import "mixins/roundCorners";
 
 // Start Application Styles & Settings
 // ------------------------------------------------------------------------
@@ -36,3 +37,6 @@ $img-url: "../img";
 // Backcountry Specific Styles & Settings
 @import "globals/bcColors";
 @import "globals/bcBase";
+@import "globals/facetDisplay";
+
+@import "project/facets";

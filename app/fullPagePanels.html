@@ -1,0 +1,688 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="keywords" content="">        
+
+	<title>Facets</title>		
+	<script src="../build/lib/jquery/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="../build/lib/bootstrap/js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+	<link rel="stylesheet" media="screen" href="assets/css/app.css">      
+</head>
+<script>
+	$(document).ready(function () {
+		$("#filterBtn").click(function(){
+			$("#refinementPanel").stop(1,1).slideToggle('slow');
+		});
+		$("#closeBtn").click(function(){
+			$("#refinementPanel").stop(1,1).slideToggle('slow');
+		});
+
+    $('#brandOption-p').click(function() {
+			$('#brands-a').hide();
+      $('#brands-p').show();
+      return false;
+		});
+ 
+	});
+</script>
+<body>
+<div class="phone">
+	<div class="header">
+		<div class="mainNav"></div>
+		<div class="search"></div>
+		<div class="promo">Free Shipping on Orders Over $50*</div>
+	</div>
+	<div class="plp">
+		<div class="title">5,345 results for <span class="searchTerm">"jackets"</span></div>
+		<div class="refine">
+			<a id="filterBtn" class="btn btn-default" href="#" role="button">Filter</a>
+			<a id="sortBtn"  class="btn btn-default" href="#" role="button">Sort</a>
+		</div>
+		<div class="results"><img src="assets/img/jacketResults.png" width="320" height="1605" alt="JacketResults"></div>
+	</div>
+	<div id="refinementPanel" class="refinementPanel">
+		<div class="refineNav">
+			Filtering
+			<a id="" class="btn btn-primary" href="#" role="button">Search</a>
+			<a id="closeBtn" class="btn btn-default" href="#" role="button">Cancel</a>
+		</div>
+		<div class="refineSort">
+			<div class="panel panel-default"><!-- Brands -->
+				<div class="panel-heading">
+					<a data-toggle="collapse" data-parent="#accordion" href="#collapse1" class="collapsed">Brands<span class="glyphicon glyphicon-plus" aria-hidden="true"></a>
+				</div>
+				<div id="collapse1" class="panel-collapse collapse" style="height: 0px;">
+					<div class="panel-body">
+						<div class="scrollWrap">
+							<div class="scrollContents">
+								<div class="facets gShop-i1">
+									<div class="facetBox">
+										<div>
+											<a class="facet-White" href="">
+												<span class="facet-cb"></span>
+												<span class="facet-label">A</span>
+											</a>
+										</div>
+										<div>
+											<a class="facet-White" href="">
+												<span class="facet-cb"></span>
+												<span class="facet-label">B</span>
+											</a>
+										</div>
+										<div>
+											<a class="facet-White" href="">
+												<span class="facet-cb"></span>
+												<span class="facet-label">C</span>
+											</a>
+										</div>
+										<div>
+											<a class="facet-White" href="">
+												<span class="facet-cb"></span>
+												<span class="facet-label">D</span>
+											</a>
+										</div>
+										<div>
+											<a class="facet-White" href="">
+												<span class="facet-cb"></span>
+												<span class="facet-label">E</span>
+											</a>
+										</div>
+										<div>
+											<a class="facet-White" href="">
+												<span class="facet-cb"></span>
+												<span class="facet-label">F</span>
+											</a>
+										</div>
+										<div>
+											<a class="facet-White" href="">
+												<span class="facet-cb"></span>
+												<span class="facet-label">G</span>
+											</a>
+										</div>
+										<div>
+											<a class="facet-White" href="">
+												<span class="facet-cb"></span>
+												<span class="facet-label">H</span>
+											</a>
+										</div>
+										<div>
+											<a class="facet-White" href="">
+												<span class="facet-cb"></span>
+												<span class="facet-label">I</span>
+											</a>
+										</div>
+										<div>
+											<a class="facet-White" href="">
+												<span class="facet-cb"></span>
+												<span class="facet-label">J</span>
+											</a>
+										</div>
+										<div>
+											<a class="facet-White" href="">
+												<span class="facet-cb"></span>
+												<span class="facet-label">K</span>
+											</a>
+										</div>
+										<div>
+											<a class="facet-White" href="">
+												<span class="facet-cb"></span>
+												<span class="facet-label">L</span>
+											</a>
+										</div>
+										<div>
+											<a class="facet-White" href="">
+												<span class="facet-cb"></span>
+												<span class="facet-label">M</span>
+											</a>
+										</div>
+										<div>
+											<a class="facet-White" href="">
+												<span class="facet-cb"></span>
+												<span class="facet-label">N</span>
+											</a>
+										</div>
+										<div>
+											<a class="facet-White" href="">
+												<span class="facet-cb"></span>
+												<span class="facet-label">O</span>
+											</a>
+										</div>
+										<div>
+											<a id="brandOption-p" class="facet-White" href="">
+												<span class="facet-cb"></span>
+												<span class="facet-label">P</span>
+											</a>
+										</div>
+										<div>
+											<a class="facet-White" href="">
+												<span class="facet-cb"></span>
+												<span class="facet-label">Q</span>
+											</a>
+										</div>
+										<div>
+											<a class="facet-White" href="">
+												<span class="facet-cb"></span>
+												<span class="facet-label">R</span>
+											</a>
+										</div>
+										<div>
+											<a class="facet-White" href="">
+												<span class="facet-cb"></span>
+												<span class="facet-label">S</span>
+											</a>
+										</div>
+										<div>
+											<a class="facet-White" href="">
+												<span class="facet-cb"></span>
+												<span class="facet-label">T</span>
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div id="brands-a" class="col2">
+							<div class="facets gShop-i1">
+								<div class="facetMulti">
+									<div>
+										<a href="">
+											<span class="facet-cb"></span>
+											<span class="facet-label">Abbey Bike Tools</span>
+										</a>
+									</div>
+									<div>
+										<a href="">
+											<span class="facet-cb"></span>
+											<span class="facet-label">ABS Avalanche Rescue Devices</span>
+										</a>
+									</div>
+									<div>
+										<a href="">
+											<span class="facet-cb"></span>
+											<span class="facet-label">Acli-Mate</span>
+										</a>
+									</div>
+									<div>
+										<a href="">
+											<span class="facet-cb"></span>
+											<span class="facet-label">Acorn</span>
+										</a>
+									</div>
+									<div>
+										<a href="">
+											<span class="facet-cb"></span>
+											<span class="facet-label">ACR</span>
+										</a>
+									</div>
+									<div>
+										<a href="">
+											<span class="facet-cb"></span>
+											<span class="facet-label">adidas</span>
+										</a>
+									</div>
+									<div>
+										<a href="">
+											<span class="facet-cb"></span>
+											<span class="facet-label">Adidas Beach</span>
+										</a>
+									</div>
+									<div>
+										<a href="">
+											<span class="facet-cb"></span>
+											<span class="facet-label">Adidas Outdoor</span>
+										</a>
+									</div>
+									<div>
+										<a href="">
+											<span class="facet-cb"></span>
+											<span class="facet-label">Adventure Medical</span>
+										</a>
+									</div>
+									<div>
+										<a href="">
+											<span class="facet-cb"></span>
+											<span class="facet-label">Ahnu</span>
+										</a>
+									</div>
+									<div>
+										<a href="">
+											<span class="facet-cb"></span>
+											<span class="facet-label">Airblaster</span>
+										</a>
+									</div>
+									<div>
+										<a href="">
+											<span class="facet-cb"></span>
+											<span class="facet-label">Aire</span>
+										</a>
+									</div>
+									<div>
+										<a href="">
+											<span class="facet-cb"></span>
+											<span class="facet-label">Airhole</span>
+										</a>
+									</div>
+									<div>
+										<a href="">
+											<span class="facet-cb"></span>
+											<span class="facet-label">AKU</span>
+										</a>
+									</div>
+									<div>
+										<a href="">
+											<span class="facet-cb"></span>
+											<span class="facet-label">Alchemy Goods</span>
+										</a>
+									</div>
+									<div>
+										<a href="">
+											<span class="facet-cb"></span>
+											<span class="facet-label">Allgood Provisions</span>
+										</a>
+									</div>
+									<div>
+										<a href="">
+											<span class="facet-cb"></span>
+											<span class="facet-label">Aloe Up</span>
+										</a>
+									</div>
+									<div>
+										<a href="">
+											<span class="facet-cb"></span>
+											<span class="facet-label">Alo Yoga</span>
+										</a>
+									</div>
+									<div>
+										<a href="">
+											<span class="facet-cb"></span>
+											<span class="facet-label">Alpina</span>
+										</a>
+									</div>
+									<div>
+										<a href="">
+											<span class="facet-cb"></span>
+											<span class="facet-label">AlpineAire</span>
+										</a>
+									</div>
+									<div>
+										<a href="">
+											<span class="facet-cb"></span>
+											<span class="facet-label">Alpinestars</span>
+										</a>
+									</div>
+									<div>
+										<a href="">
+											<span class="facet-cb"></span>
+											<span class="facet-label">ALPS Mountaineering</span>
+										</a>
+									</div>
+									<div>
+										<a href="">
+											<span class="facet-cb"></span>
+											<span class="facet-label">Altamont</span>
+										</a>
+									</div>
+									<div>
+										<a href="">
+											<span class="facet-cb"></span>
+											<span class="facet-label">Altra</span>
+										</a>
+									</div>
+									<div>
+										<a href="">
+											<span class="facet-cb"></span>
+											<span class="facet-label">Ambler</span>
+										</a>
+									</div>
+									<div>
+										<a href="">
+											<span class="facet-cb"></span>
+											<span class="facet-label">Ambrosio</span>
+										</a>
+									</div>
+									<div>
+										<a href="">
+											<span class="facet-cb"></span>
+											<span class="facet-label">American Mountain Co.</span>
+										</a>
+									</div>
+									<div>
+										<a href="">
+											<span class="facet-cb"></span>
+											<span class="facet-label">Analog</span>
+										</a>
+									</div>
+									<div>
+										<a href="">
+											<span class="facet-cb"></span>
+											<span class="facet-label">Anarchy</span>
+										</a>
+									</div>
+									<div>
+										<a href="">
+											<span class="facet-cb"></span>
+											<span class="facet-label">Angler's Accessories</span>
+										</a>
+									</div>
+									<div>
+										<a href="">
+											<span class="facet-cb"></span>
+											<span class="facet-label">Anon</span>
+										</a>
+									</div>
+									<div>
+										<a href="">
+											<span class="facet-cb"></span>
+											<span class="facet-label">APIS</span>
+										</a>
+									</div>
+									<div>
+										<a href="">
+											<span class="facet-cb"></span>
+											<span class="facet-label">Aqua-Bound</span>
+										</a>
+									</div>
+									<div>
+										<a href="">
+											<span class="facet-cb"></span>
+											<span class="facet-label">Aquaglide</span>
+										</a>
+									</div>
+									<div>
+										<a href="">
+											<span class="facet-cb"></span>
+											<span class="facet-label">Arbor</span>
+										</a>
+									</div>
+									<div>
+										<a href="">
+											<span class="facet-cb"></span>
+											<span class="facet-label">Arborwear</span>
+										</a>
+									</div>
+									<div>
+										<a href="">
+											<span class="facet-cb"></span>
+											<span class="facet-label">Arc'teryx</span>
+										</a>
+									</div>
+									<div>
+										<a href="">
+											<span class="facet-cb"></span>
+											<span class="facet-label">Arcade</span>
+										</a>
+									</div>
+									<div>
+										<a href="">
+											<span class="facet-cb"></span>
+											<span class="facet-label">Ariat</span>
+										</a>
+									</div>
+									<div>
+										<a href="">
+											<span class="facet-cb"></span>
+											<span class="facet-label">Armada</span>
+										</a>
+									</div>
+									<div>
+										<a href="">
+											<span class="facet-cb"></span>
+											<span class="facet-label">Arnette</span>
+										</a>
+									</div>
+									<div>
+										<a href="">
+											<span class="facet-cb"></span>
+											<span class="facet-label">Arundel</span>
+										</a>
+									</div>
+									<div>
+										<a href="">
+											<span class="facet-cb"></span>
+											<span class="facet-label">ARVA</span>
+										</a>
+									</div>
+									<div>
+										<a href="">
+											<span class="facet-cb"></span>
+											<span class="facet-label">Ashbury Eyewear</span>
+										</a>
+									</div>
+									<div>
+										<a href="">
+											<span class="facet-cb"></span>
+											<span class="facet-label">Asics</span>
+										</a>
+									</div>
+									<div>
+										<a href="">
+											<span class="facet-cb"></span>
+											<span class="facet-label">Asolo</span>
+										</a>
+									</div>
+									<div>
+										<a href="">
+											<span class="facet-cb"></span>
+											<span class="facet-label">Assos</span>
+										</a>
+									</div>
+									<div>
+										<a href="">
+											<span class="facet-cb"></span>
+											<span class="facet-label">Astis</span>
+										</a>
+									</div>
+									<div>
+										<a href="">
+											<span class="facet-cb"></span>
+											<span class="facet-label">Astral Buoyancy</span>
+										</a>
+									</div>
+									<div>
+										<a href="">
+											<span class="facet-cb"></span>
+											<span class="facet-label">Atlas</span>
+										</a>
+									</div>
+									<div>
+										<a href="">
+											<span class="facet-cb"></span>
+											<span class="facet-label">Atomic</span>
+										</a>
+									</div>
+									<div>
+										<a href="">
+											<span class="facet-cb"></span>
+											<span class="facet-label">AT Paddles</span>
+										</a>
+									</div>
+									<div>
+										<a href="">
+											<span class="facet-cb"></span>
+											<span class="facet-label">Aussie Naturals</span>
+										</a>
+									</div>
+									<div>
+										<a href="">
+											<span class="facet-cb"></span>
+											<span class="facet-label">Aventura</span>
+										</a>
+									</div>
+									<div>
+										<a href="">
+											<span class="facet-cb"></span>
+											<span class="facet-label">Avex</span>
+										</a>
+									</div>
+									<div>
+										<a href="">
+											<span class="facet-cb"></span>
+											<span class="facet-label">Avid</span>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div id="brands-p" class="col2" style="display:none">
+							<a href>Paceline Products</a>
+							<a href>Packtowl</a>
+							<a href>Pacsafe</a>
+							<a href>Paha Que</a>
+							<a href>Pajar Canada</a>
+							<a href>Pakems</a>
+							<a href>Palladium</a>
+							<a href>Parajumpers</a>
+							<a href>Park Tool</a>
+							<a href>Patagonia</a>
+							<a href>Patagonia Footwear</a>
+							<a href>Paul Frank</a>
+							<a href>Pearl Izumi</a>
+							<a href>Pedro's</a>
+							<a href>Pendleton</a>
+							<a href>Penfield</a>
+							<a href>Perception</a>
+							<a href>Petzl</a>
+							<a href>Pieps</a>
+							<a href>Pika</a>
+							<a href>Packworks</a>
+							<a href>Pikolinos</a>
+							<a href>Pinarello</a>
+							<a href>Pioneer</a>
+							<a href>Pistil</a>
+							<a href>Planks Clothing</a>
+							<a href>Platypus</a>
+							<a href>POC</a>
+							<a href>Point6</a>
+							<a href>Poler</a>
+							<a href>Pomoca</a>
+							<a href>Portland Design Works</a>
+							<a href>Powerbar</a>
+							<a href>PowerTap</a>
+							<a href>Powertraveller</a>
+							<a href>Pow Gloves</a>
+							<a href>prAna</a>
+							<a href>Pret Helmets</a>
+							<a href>Primus</a>
+							<a href>Princeton Tec</a>
+							<a href>PRO</a>
+							<a href>ProBar</a>
+							<a href>Problem Solvers</a>
+							<a href>Profile Design</a>
+							<a href>Prolink</a>
+							<a href>Prologo</a>
+							<a href>Proof Eyewear</a>
+							<a href>Pro-tec</a>
+							<a href>Pro-Tec Athletics</a>
+							<a href>Pull-In</a>
+							<a href>Puma</a>
+							<a href>Puma Ecosphere</a>
+							<a href>Pyranha</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="panel panel-default"><!-- Color -->
+				<div class="panel-heading">
+					<a data-toggle="collapse" data-parent="#accordion" href="#collapse2" class="collapsed">Colors<span class="glyphicon glyphicon-plus" aria-hidden="true"></span></a>
+				</div>
+				<div id="collapse2" class="panel-collapse collapse" style="height: 0px;">
+					<div class="panel-body">
+						<div class="facets facetLarge gShop-i1">
+							<div class="facetBox">
+								<div>
+									<a class="facet-Beige" href="">
+										<span class="facet-cb"></span>
+										<span class="facet-label"></span>
+									</a>
+								</div>
+								<div>
+									<a class="facet-Black" href="">
+										<span class="facet-cb"></span>
+										<span class="facet-label"></span>
+									</a>
+								</div>
+								<div>
+									<a class="facet-Blue" href="">
+										<span class="facet-cb"></span>
+										<span class="facet-label"></span>
+									</a>
+								</div>
+								<div>
+									<a class="facet-Brown" href="">
+										<span class="facet-cb"></span>
+										<span class="facet-label"></span>
+									</a>
+								</div>
+								<div>
+									<a class="facet-Gray" href="">
+										<span class="facet-cb"></span>
+										<span class="facet-label"></span>
+									</a>
+								</div>
+								<div>
+									<a class="facet-Green" href="">
+										<span class="facet-cb"></span>
+										<span class="facet-label"></span>
+									</a>
+								</div>
+								<div>
+									<a class="facet-Orange" href="">
+										<span class="facet-cb"></span>
+										<span class="facet-label"></span>
+									</a>
+								</div>
+								<div>
+									<a class="facet-Pink" href="">
+										<span class="facet-cb"></span>
+										<span class="facet-label"></span>
+									</a>
+								</div>
+								<div>
+									<a class="facet-Purple" href="">
+										<span class="facet-cb"></span>
+										<span class="facet-label"></span>
+									</a>
+								</div>
+								<div>
+									<a class="facet-Red" href="">
+										<span class="facet-cb"></span>
+										<span class="facet-label"></span>
+									</a>
+								</div>
+								<div>
+									<a class="facet-White" href="">
+										<span class="facet-cb"></span>
+										<span class="facet-label"></span>
+									</a>
+								</div>
+								<div>
+									<a class="facet-Yellow" href="">
+										<span class="facet-cb"></span>
+										<span class="facet-label"></span>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="panel panel-default"><!-- Price -->
+				<div class="panel-heading">
+					<a data-toggle="collapse" data-parent="#accordion" href="#collapse3" class="collapsed">Prices<span class="glyphicon glyphicon-plus" aria-hidden="true"></a>
+				</div>
+				<div id="collapse3" class="panel-collapse collapse" style="height: 0px;">
+					<div class="panel-body">
+						Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="refineFilter"></div>
+	</div>
+</div>
+</body>
+</html>
